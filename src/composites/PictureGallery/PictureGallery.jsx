@@ -2,7 +2,8 @@ import React from "react";
 import { GalleryItem } from "../../components";
 
 import { gallery } from "./gallery";
-import Blob from "../../assets/blob-gallery.png";
+// import Blob from "../../assets/blob-gallery.png";
+import BlobLove from "../../assets/blob-love.gif";
 import "./styles.css";
 
 import Carousel from "react-multi-carousel";
@@ -33,7 +34,7 @@ const PictureGallery = () => {
     <div className="gallery-container">
       <div className="gallery-header">
         <span>Our Happy Moments</span>
-        <img src={Blob} alt="blob-gallery" />
+        <img src={BlobLove} alt="blob-gallery" />
       </div>
       <div>
         <div className="gall-item-container item-desktop">

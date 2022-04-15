@@ -16,7 +16,7 @@ const EventDetails = ({ wedding }) => {
     {
       name: "Resepsi Nikah",
       date: wedding.dateWedding,
-      time: wedding.timeReceptionhh,
+      time: wedding.timeReception,
       venue: wedding.venue,
       address: wedding.locationReception,
     },
