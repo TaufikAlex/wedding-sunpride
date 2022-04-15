@@ -1,0 +1,45 @@
+.footer-container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  background-color: #0a658f;
+  opacity: 0.9
+}
+
+.footer-container p {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.footer-container hr {
+  margin: 5px 0;
+  width: 400px;
+}
+
+.icon {
+  margin: 0 3px;
+  font-size: 12px;
+  width: 10px;
+  height: 10px;
+  color: #fff !important;
+}
+
+.footer-container br {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .footer-container br {
+    display: block;
+  }
+
+  .icon {
+    font-size: 10px;
+  }
+}
