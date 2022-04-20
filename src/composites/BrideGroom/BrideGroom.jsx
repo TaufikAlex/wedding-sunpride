@@ -1,10 +1,10 @@
 // Modules
-import React from "react";
-import { ProfileCard } from "../../components";
+import React from 'react';
+import { ProfileCard } from '../../components';
 
 // Assets
-import styles from "./styles.module.css";
-import DataBrideGroom from "./data";
+import styles from './styles.module.css';
+import DataBrideGroom from './data';
 
 const BrideGroom = ({ wedding }) => {
   const { data } = DataBrideGroom({ wedding });

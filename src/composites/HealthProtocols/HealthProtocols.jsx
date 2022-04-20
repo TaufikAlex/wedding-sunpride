@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import { data } from "./protocols";
-import "./styles.css";
+import { data } from './protocols';
+import './styles.css';
 
 const HealthProtocols = () => {
   return (

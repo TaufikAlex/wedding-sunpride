@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { FrontPageInvitation, WeddingInvitation } from "../";
-import { PlaySong } from "../../components";
-import DataWedding from "./data";
+import React, { useState } from 'react';
+import { FrontPageInvitation, WeddingInvitation } from '../';
+import { PlaySong } from '../../components';
+import DataWedding from './data';
 
 const MainScreen = () => {
   const [isInvitationOpen, setInvitationOpen] = useState(false);

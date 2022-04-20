@@ -1,4 +1,5 @@
-import React from "react";
+import React from 'react';
+import { GoogleMapLocation } from '../../components';
 import {
   WelcomePage,
   BrideGroom,
@@ -9,7 +10,7 @@ import {
   PictureGallery,
   ClosingPage,
   Footer,
-} from "../../composites";
+} from '../../composites';
 
 const WeddingInvitation = ({ wedding }) => {
   return (
@@ -18,6 +19,7 @@ const WeddingInvitation = ({ wedding }) => {
       <BrideGroom wedding={wedding} />
       <TimelineContent wedding={wedding} />
       <EventDetails wedding={wedding} />
+      <GoogleMapLocation wedding={wedding} />
       <CountdownTimer wedding={wedding} />
       <HealthProtocols />
       <PictureGallery />

@@ -1,20 +1,18 @@
-import React from "react";
-import { Button, EventDetailCard, GoogleMapLocation } from "../../components";
-import styles from "./styles.module.css";
+import React from 'react';
+import { EventDetailCard } from '../../components';
+import styles from './styles.module.css';
 
 const EventDetails = ({ wedding }) => {
-  const venueUrl =
-    "https://www.google.com/maps/place/D'Sinta+Cafe+%26+Resto+Purwakarta/@-6.5938353,107.4768679,17z/data=!3m1!4b1!4m5!3m4!1s0x2e690fe2abdc1bfd:0x2ccaff4408edb905!8m2!3d-6.5938353!4d107.4790566";
   const eventDetails = [
     {
-      name: "Akad Nikah",
+      name: 'Akad Nikah',
       date: wedding.dateWedding,
       time: wedding.timeMarriageContract,
       venue: wedding.venue,
       address: wedding.locationMarriageContract,
     },
     {
-      name: "Resepsi Nikah",
+      name: 'Resepsi Nikah',
       date: wedding.dateWedding,
       time: wedding.timeReception,
       venue: wedding.venue,
@@ -43,12 +41,6 @@ const EventDetails = ({ wedding }) => {
             })}
           </div>
         </div>
-      </div>
-      <div className={styles.location}>
-        <div>
-          <GoogleMapLocation wedding={wedding} />
-        </div>
-        <Button text="Lihat lokasi" onClick={() => window.open(venueUrl)} />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import styles from "./styles.module.css";
+import React, { useState, useEffect } from 'react';
+import styles from './styles.module.css';
 
 const CountdownTimer = ({ wedding }) => {
   const [days, setDays] = useState(0);
@@ -45,13 +45,13 @@ const CountdownTimer = ({ wedding }) => {
     <div className={styles.container}>
       <p className={styles.countdownDate}>{wedding.dateWedding}</p>
       <div className={styles.countdownContainer}>
-        {renderCountDownValues(days, "Days")}
+        {renderCountDownValues(days, 'Days')}
         <p className={styles.slash}>/</p>
-        {renderCountDownValues(hours, "Hours")}
+        {renderCountDownValues(hours, 'Hours')}
         <p className={styles.slash}>/</p>
-        {renderCountDownValues(minutes, "Minutes")}
+        {renderCountDownValues(minutes, 'Minutes')}
         <p className={styles.slash}>/</p>
-        {renderCountDownValues(seconds, "Seconds")}
+        {renderCountDownValues(seconds, 'Seconds')}
       </div>
     </div>
   );

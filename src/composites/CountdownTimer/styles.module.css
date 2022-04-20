@@ -59,6 +59,25 @@
   font-size: 80px;
 }
 
+@media only screen and (max-width: 768px) {
+  .countdownDate {
+    font-size: 60px;
+  }
+
+  .countdownValue {
+    font-size: 40px;
+  }
+
+  .countdownText {
+    font-size: 12px;
+  }
+
+  .slash {
+    margin: 0 20px;
+    font-size: 60px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .countdownDate {
     font-size: 32px;

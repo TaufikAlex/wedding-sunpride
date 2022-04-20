@@ -135,8 +135,10 @@ img {
   margin-top: 20px;
 }
 
+ 
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 768px){
   .opening-timeline {
     font-size: 15px;
   }

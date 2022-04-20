@@ -1,7 +1,7 @@
-import React from "react";
-import { HeaderSeparator, Button } from "../../components";
+import React from 'react';
+import { HeaderSeparator, Button } from '../../components';
 
-import styles from "./styles.module.css";
+import styles from './styles.module.css';
 
 const WelcomePage = ({ wedding }) => {
   return (
