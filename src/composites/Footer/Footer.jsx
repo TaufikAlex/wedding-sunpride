@@ -1,6 +1,6 @@
-import React from "react";
-import { FaHeart } from "react-icons/fa";
-import "./styles.css";
+import React from 'react';
+import { FaHeart } from 'react-icons/fa';
+import './styles.css';
 
 const Footer = ({ wedding }) => {
   return (

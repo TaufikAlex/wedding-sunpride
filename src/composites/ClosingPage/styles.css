@@ -29,6 +29,37 @@
   line-height: 120px;
 }
 
+
+.top-to-btm{
+  position: relative;
+}
+
+.icon-position{
+  position: fixed;
+  bottom: 40px;
+  right: 55px;
+  z-index: 20;
+}
+
+.icon-style{
+  background-color: #551B54;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all .5s ease-in-out;
+}
+
+.icon-style:hover{
+  animation: none;
+  background: #fff;
+  color: #551B54;
+  border: 2px solid #551B54;
+}
+
 @media screen and (max-width: 768px) {
   .closing-container {
     width: 85%;
@@ -48,5 +79,25 @@
   .cl-last-container p {
     font-size: 24px;
     line-height: 30px;
+  }
+
+  
+  .icon-position{
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    z-index: 20;
+  }
+  
+  .icon-style{ 
+    height: 35px;
+    width: 35px; 
+  }
+  
+  .icon-style:hover{
+    animation: none;
+    background: #fff;
+    color: #551B54;
+    border: 2px solid #551B54;
   }
 }
