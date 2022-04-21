@@ -3,3 +3,20 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --primary:linear-gradient(rgba(186, 194, 197, 0.92), rgba(9, 131, 202, 0.92));
+  --primary-bg-color:#412222;;
+  --primary-text:#5b3d2c;
+  --primary-text-white:#ffff;
+  --gotoPage: #0699fc;
+  
+
+  --frontPage: var(--primary),url('./assets/header_img.jpeg');
+  --welcomePage: var(--primary),url('./assets/header_img.jpeg');
+  --timeLinePage: var(--primary),url('./assets/timeline-bg-2.jpg');
+  --eventPage: var(--primary),url('./assets/bg-venue.png');
+  --countDownPage: var(--primary),url('./assets/countdown_bg.png');
+  --healthPage: var(--primary)
+
+}

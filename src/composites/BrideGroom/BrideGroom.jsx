@@ -13,7 +13,7 @@ const BrideGroom = ({ wedding }) => {
     <div className={styles.container}>
       <p className={styles.title}>The Bride &amp; The Groom</p>
       <div className={styles.cardContainer}>
-        {data.map((el, idx) => (
+        {data.map((el, idx) => (  
           <>
             <ProfileCard
               img={el.img}

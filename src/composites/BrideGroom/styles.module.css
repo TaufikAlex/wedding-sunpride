@@ -1,6 +1,6 @@
 .container {
   width: 80%;
-  height: auto;
+  height: 100vh;
   margin: 60px auto;
 }
 
@@ -21,7 +21,7 @@
 .title {
   margin-bottom: 60px;
   font-family: Playfair Display;
-  color: #412222;
+  color: var(--primary-bg-color);
 }
 
 .separator {

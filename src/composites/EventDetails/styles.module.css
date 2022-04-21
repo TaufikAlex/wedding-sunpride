@@ -1,10 +1,11 @@
 .container {
-  min-height: 1000px;
+  min-height: 100vh;
+  /* min-height: 1000px; */
   padding: 100px 0;
   width: 100%;
   height: auto;
-  color: #412222;
-  background: url('../../assets/bg-venue.png');
+  color: var(--primary-bg-color);
+  background:var(--eventPage);
   background-repeat: no-repeat;
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;

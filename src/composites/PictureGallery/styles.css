@@ -12,7 +12,7 @@
 .gallery-header span {
   font-size: 32px;
   font-family: Plafair Display;
-  color: #614637;
+  color: var(--primary-text);
 }
 
 .gallery-header img {

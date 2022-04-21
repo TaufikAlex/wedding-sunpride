@@ -5,8 +5,8 @@
   justify-content: center;
 
   height: 100vh;
-  background: linear-gradient(rgba(10, 101, 143, 0.92), rgba(9, 131, 202, 0.92)),
-    url('../../assets/header_img.jpeg');
+  /* background: linear-gradient(rgba(10, 101, 143, 0.92), rgba(9, 131, 202, 0.92)), */
+  background:var(--frontPage);
   background-repeat: no-repeat;
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -18,7 +18,7 @@
   background-size: cover;
   /* Set a background color that will be displayed
   while the background image is loading */
-  background-color: #412222;
+  background-color: var(--primary-bg-color);
 }
 
 .mobileAdditionalBg {

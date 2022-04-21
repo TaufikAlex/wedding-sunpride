@@ -3,10 +3,10 @@ import { useState } from 'react';
 const DataWedding = () => {
   const [wedding] = useState({
     longLat: [-6.5938353, 107.4768679],
-    man: 'Jhon Doee',
-    ladies: 'Chrisyee',
-    callMan: 'Jhon Doe',
-    callLadies: 'Chrisyee',
+    man: 'Blank',
+    ladies: 'Blank',
+    callMan: 'Blank',
+    callLadies: 'Blank',
     dateWedding: 'Sunday, 05th June 2022',
     countDownWedding: 'June 5, 2022 08:00:00',
     description:
