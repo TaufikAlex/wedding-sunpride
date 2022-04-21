@@ -1,15 +1,15 @@
 import React from 'react';
 import { GoogleMapLocation } from '../../components';
 import {
-  WelcomePage,
   BrideGroom,
-  EventDetails,
+  ClosingPage,
   CountdownTimer,
-  TimelineContent,
+  EventDetails,
+  Footer,
   HealthProtocols,
   PictureGallery,
-  ClosingPage,
-  Footer,
+  TimelineContent,
+  WelcomePage,
 } from '../../composites';
 
 const WeddingInvitation = ({ wedding }) => {
