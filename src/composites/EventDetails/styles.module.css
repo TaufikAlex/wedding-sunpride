@@ -3,7 +3,7 @@
   /* min-height: 1000px; */
   padding: 100px 0;
   width: 100%;
-  height: auto;
+  /* height: auto; */
   color: var(--primary-bg-color);
   background:var(--eventPage);
   background-repeat: no-repeat;

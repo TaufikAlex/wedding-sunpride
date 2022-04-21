@@ -3,10 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+ 
 :root {
   --primary:linear-gradient(rgba(186, 194, 197, 0.92), rgba(9, 131, 202, 0.92));
-  --primary-bg-color:#412222;;
+  --primary-bg-color:#684d3d;;
   --primary-text:#5b3d2c;
   --primary-text-white:#ffff;
   --gotoPage: #0699fc;

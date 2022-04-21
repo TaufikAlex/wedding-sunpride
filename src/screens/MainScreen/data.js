@@ -3,10 +3,10 @@ import { useState } from 'react';
 const DataWedding = () => {
   const [wedding] = useState({
     longLat: [-6.5938353, 107.4768679],
-    man: 'Blank',
-    ladies: 'Blank',
-    callMan: 'Blank',
-    callLadies: 'Blank',
+    man: 'Muhammad Notonugroho, S.T ',
+    ladies: 'Jalia Adhara',
+    callMan: 'Noto',
+    callLadies: 'Jalia',
     dateWedding: 'Sunday, 05th June 2022',
     countDownWedding: 'June 5, 2022 08:00:00',
     description:
@@ -20,13 +20,13 @@ const DataWedding = () => {
     timeMarriageContract: '08:00 - 09:00',
     timeReception: '11:00 - 13:00',
 
-    parentNameMan: 'Bapaknya Noto & Ibunya noto',
-    parentNameLadies: 'Bapaknya Jalia & Ibu Jalia',
+    parentNameMan: 'Fauzi & Lindawati',
+    parentNameLadies: 'Rusmin Nuryadin & Yeti Nurhayati',
     childMan: 'Putra Tunggal',
     childLadies: 'Putri Tunggal',
 
     closingText: `Jika ada manusia belum hidup bersama pasangannya, berarti hidupnya akan timpang dan tidak berjalan sesuai dengan ketetapan Allah SWT dan orang yang menikah berarti melengkapi agamanya, sabda Rasulullah SAW: "Barangsiapa diberi Allah seorang istri yang sholihah, sesungguhnya telah ditolong separoh agamanya. Dan hendaklah bertaqwa kepada Allah separoh lainnya." (HR. Baihaqi).`,
-    prayText: 'Mohon bantuan dana & doanya yaa semua...',
+    prayText: "Mohon do'a Restu.",
   });
   return { wedding };
 };

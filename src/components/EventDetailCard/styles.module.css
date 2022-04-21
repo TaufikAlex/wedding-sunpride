@@ -2,8 +2,8 @@
   padding: 30px;
   margin: 0px 20px;
   width: 420px;
-  color: #fff;
-  background-color: #684d3d;
+  color: var(--primary-text-white);
+  background-color: var(--primary-bg-color);
   border: none;
   border-radius: 10px;
 }
