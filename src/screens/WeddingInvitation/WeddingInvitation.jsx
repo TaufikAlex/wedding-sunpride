@@ -14,7 +14,7 @@ import {
 
 const WeddingInvitation = ({ wedding }) => {
   return (
-    <div>
+    <>
       <WelcomePage wedding={wedding} />
       <BrideGroom wedding={wedding} />
       <TimelineContent wedding={wedding} />
@@ -25,7 +25,7 @@ const WeddingInvitation = ({ wedding }) => {
       <PictureGallery />
       <ClosingPage wedding={wedding} />
       <Footer wedding={wedding} />
-    </div>
+    </>
   );
 };
 
