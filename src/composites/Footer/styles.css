@@ -5,10 +5,10 @@
   justify-content: center;
   align-items: center;
   min-height: 40px;
-  color: #fff;
+  color: var(--footer-text);;
   font-family: Poppins;
   font-size: 12px;
-  background-color: #0a658f;
+  background:var(--footer);
   opacity: 0.9
 }
 
@@ -27,7 +27,7 @@
   font-size: 12px;
   width: 10px;
   height: 10px;
-  color: #fff !important;
+  color: var(--footer-text) !important;
 }
 
 .footer-container br {

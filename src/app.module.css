@@ -10,6 +10,8 @@
   --primary-text:#5b3d2c;
   --primary-text-white:#ffff;
   --gotoPage: #0699fc;
+  --footer:linear-gradient(rgba(14, 105, 138, 0.92), rgba(9, 131, 202, 0.92));
+  --footer-text:#ffff;
   
 
   --frontPage: var(--primary),url('./assets/header_img.jpeg');
