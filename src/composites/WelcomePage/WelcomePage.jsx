@@ -8,7 +8,7 @@ const WelcomePage = ({ wedding }) => {
     <motion.div
       animate={{ scale: [1, 2, 2, 2, 1], opacity: 1, y: 0 }}
       initial={{ opacity: 0, y: 20 }}
-      exit={{ opacity: 0, y: -30 }}
+      exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 1.5, ease: 'easeInOut', repeatDelay: 1 }}
     >
       <div className={styles.container}>
