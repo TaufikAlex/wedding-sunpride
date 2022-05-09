@@ -10,16 +10,6 @@ const Footer = ({ wedding }) => {
         by {wedding.man} &amp; {wedding.ladies}
       </p>
       <p>CopyRight Alex © 2022</p>
-      {/* <p>
-        See code on{" "}
-        <a
-          href="https://github.com/ifindev/wedding-invitation-site"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <FaGithub className="icon" />
-        </a>
-      </p> */}
     </div>
   );
 };

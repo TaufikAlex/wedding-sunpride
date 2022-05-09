@@ -57,10 +57,11 @@
 
 @media only screen and (max-width: 480px) {
   .container {
-     background: linear-gradient(rgba(10, 101, 143, 0.92), rgba(9, 131, 202, 0.92)),
+    background:var(--welcomePage);
+     /* background: linear-gradient(rgba(10, 101, 143, 0.92), rgba(9, 131, 202, 0.92)),
     
-      url('../../assets/header_img_mobile.png');
-    background-size: 100vw 650px;
+      url('../../assets/header_img_mobile.png'); */
+    background-size: 100vw 100vh;
     background-repeat: no-repeat;
   }
 

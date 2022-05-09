@@ -1,8 +1,10 @@
 .timeline-container {
   /* height: 100%; */
-  padding: 80px 0px;
-  background-color: #5b3d2c;
-  /* background: linear-gradient(rgba(10, 101, 143, 0.92), rgba(9, 131, 202, 0.92)), */
+  /* height: 100vh; */
+  /* max-height: 100vh;  */
+  
+  padding: 25px 0px;
+  background-color:var(--primary-text);
    background:var(--timeLinePage);
   background-repeat: no-repeat;
   /* Background image is centered vertically and horizontally at all times */
@@ -20,7 +22,7 @@
   font-size: 30px;
   font-family: Playfair Display;
   text-align: center;
-  color: #fff;
+  color: var(--timeline-color);
 }
 
 .opening-timeline h2 {
@@ -29,7 +31,7 @@
 
 /* The actual timeline (the vertical ruler) */
 .timeline {
-  padding: 40px;
+  /* padding: 40px; */
   font-family: Helvetica, sans-serif;
   position: relative;
   max-width: 100vw;
@@ -41,7 +43,7 @@
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: var(--timeline-color);
   top: 0;
   bottom: 0;
   left: 50%;
@@ -63,8 +65,8 @@
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: white;
-  border: 4px solid #fff;
+  background-color: var(--timeline-color);
+  border: 4px solid var(--timeline-color);
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -94,9 +96,9 @@ img {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid var(--timeline-color);
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent var(--timeline-color);
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -108,9 +110,9 @@ img {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid var(--timeline-color);
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent var(--timeline-color) transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -121,7 +123,7 @@ img {
 /* The actual content */
 .content {
   padding: 20px 30px; 
-  background-color: white;
+  background-color: var(--timeline-color);
   position: relative;
   border-radius: 6px;
 }
@@ -140,7 +142,7 @@ img {
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media only screen and (max-width: 768px){
   .opening-timeline {
-    font-size: 15px;
+    font-size: large;
   }
 
   .timeline {
@@ -161,7 +163,7 @@ img {
   /* Make sure that all arrows are pointing leftwards */
   .container::before {
     left: 60px;
-    border: medium solid white;
+    border: medium solid var(--timeline-color);
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
   }

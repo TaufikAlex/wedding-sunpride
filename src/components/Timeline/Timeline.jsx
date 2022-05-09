@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles.css';
 
+import ReactPageScroller from 'react-page-scroller';
+
 const Timeline = ({ data, wedding }) => {
+  const [state, setState] = useState(0);
+
   return (
     <div className="timeline-container">
       <div className="opening-timeline">
@@ -10,19 +14,24 @@ const Timeline = ({ data, wedding }) => {
         </h2>
       </div>
       <div className="timeline">
-        {data.map((x) => {
-          return (
-            <div className={`container ${x.position}`}>
-              <div className="content">
-                <h2 style={{ color: '#684D3D', marginBottom: '20px' }}>
-                  {x.period}
-                </h2>
-                <img src={x.img} alt="" />
-                <p className="textContent">{x.content}</p>
+        <ReactPageScroller
+          pageOnChange={(page) => setState(page)}
+          customPageNumber={state}
+        >
+          {data.map((x) => {
+            return (
+              <div className={`container ${x.position}`}>
+                <div>
+                  <h3 style={{ color: '#684D3D', marginBottom: '10px' }}>
+                    {x.period}
+                  </h3>
+                  <img src={x.img} alt="" />
+                  <p className="textContent">{x.content}</p>
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </ReactPageScroller>
       </div>
     </div>
   );

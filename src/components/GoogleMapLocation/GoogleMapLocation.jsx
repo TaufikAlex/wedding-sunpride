@@ -26,7 +26,7 @@ const GoogleMapLocation = ({ wedding }) => {
           </MapContainer>
         </div>
         <Button
-          text="Lihat lokasi"
+          text="Google Maps"
           onClick={() => window.open(wedding.venueUrl)}
         />
       </div>
