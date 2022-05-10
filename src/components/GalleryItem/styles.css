@@ -8,6 +8,7 @@
   width: 50%;
   display: flex;
   justify-content: space-evenly;
+  gap: 2rem;
 }
 
 .mobile-gall {

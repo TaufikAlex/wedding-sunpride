@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import './styles.css';
+import React, { useState } from "react";
+import "./styles.css";
 
-import ReactPageScroller from 'react-page-scroller';
+import ReactPageScroller from "react-page-scroller";
 
 const Timeline = ({ data, wedding }) => {
   const [state, setState] = useState(0);
@@ -14,24 +14,24 @@ const Timeline = ({ data, wedding }) => {
         </h2>
       </div>
       <div className="timeline">
-        <ReactPageScroller
+        {/* <ReactPageScroller
           pageOnChange={(page) => setState(page)}
           customPageNumber={state}
-        >
-          {data.map((x) => {
-            return (
-              <div className={`container ${x.position}`}>
-                <div>
-                  <h3 style={{ color: '#684D3D', marginBottom: '10px' }}>
-                    {x.period}
-                  </h3>
-                  <img src={x.img} alt="" />
-                  <p className="textContent">{x.content}</p>
-                </div>
+        > */}
+        {data.map((x) => {
+          return (
+            <div className={`container ${x.position}`}>
+              <div>
+                <h3 style={{ color: "#684D3D", marginBottom: "10px" }}>
+                  {x.period}
+                </h3>
+                <img src={x.img} alt="" />
+                <p className="textContent">{x.content}</p>
               </div>
-            );
-          })}
-        </ReactPageScroller>
+            </div>
+          );
+        })}
+        {/* </ReactPageScroller> */}
       </div>
     </div>
   );

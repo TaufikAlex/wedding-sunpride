@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { GoogleMapLocation } from '../../components';
+import React from "react";
+import { GoogleMapLocation } from "../../components";
 import {
   BrideGroom,
   ClosingPage,
@@ -10,11 +10,11 @@ import {
   PictureGallery,
   TimelineContent,
   WelcomePage,
-} from '../../composites';
-import ReactPageScroller from 'react-page-scroller';
+} from "../../composites";
+// import ReactPageScroller from "react-page-scroller";
 
 const WeddingInvitation = ({ wedding }) => {
-  const [state, setState] = useState(0);
+  // const [state, setState] = useState(0);
 
   return (
     <>
