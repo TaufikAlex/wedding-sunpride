@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "./styles.css";
 
-import ReactPageScroller from "react-page-scroller";
+// import ReactPageScroller from "react-page-scroller";
 
 const Timeline = ({ data, wedding }) => {
-  const [state, setState] = useState(0);
+  // const [state, setState] = useState(0);
 
   return (
     <div className="timeline-container">

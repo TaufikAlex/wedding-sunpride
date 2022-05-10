@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { VolumeUp, VolumeOff } from '@material-ui/icons';
+import React, { useState, useEffect, useRef } from "react";
+import { VolumeUp, VolumeOff } from "@material-ui/icons";
 
-import audioSrc from '../../assets/backsound.mp3';
+import audioSrc from "../../assets/backsound.mp3";
 // import audioSrc from '../../assets/backsound-invitation.mp3';
-import styles from './styles.module.css';
+import styles from "./styles.module.css";
 
 const PlaySong = ({ isInvitationOpen }) => {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -18,8 +18,8 @@ const PlaySong = ({ isInvitationOpen }) => {
     // console.log('inside 2nd:', isPlaying);
     if (isPlaying) {
       audioRef.current.volume = 0.5;
-      // audioRef.current.play();
-      audioRef.current.pause();
+      audioRef.current.play();
+      // audioRef.current.pause();
     } else {
       audioRef.current.pause();
     }
